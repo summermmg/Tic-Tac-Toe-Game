@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="3rd.css">
+    <title>Tic Tac Toe Game</title>
+    <h1>Tic Tac Toe</h1>
+</head>
+<body>
+    <div class="outer">
+        <div class="container">
+            <button class="reset" onclick="style2()">Reset</button>
+            <div class="row border-b">
+                <div class="col border-r"></div>
+                <div class="col border-r"></div>
+                <div class="col"></div>
+            </div>    
+            <div class="row border-b">
+                <div class="col border-r"></div>
+                <div class="col border-r"></div>
+                <div class="col"></div>   
+            </div>     
+            <div class="row">
+                <div class="col border-r"></div>  
+                <div class="col border-r"></div>
+                <div class="col"></div>          
+            </div>  
+        </div>
+        <div class="game-starter">
+            <p>Would you like to be X or O?</p>
+            <button onclick="symbolX(); style1();">X</button>
+            <button onclick="symbolO(); style1();">O</button><!--bring current layer to bottom-->
+        </div>
+    </div>
+    <script src="3rd.js"></script>
+</body>
+</html>
